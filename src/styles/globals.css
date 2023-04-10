@@ -12,7 +12,7 @@ a {
 }
 
 .wrapper {
-  background: linear-gradient(to bottom right, #441b59, #374969, #72b087, #a96666);
+  /* background: linear-gradient(to bottom right, #441b59, #374969, #72b087, #a96666); */
   min-height: 100vh;
   /* set the minimum height of the wrapper to the height of the viewport */
   box-sizing: border-box;

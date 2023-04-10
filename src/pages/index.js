@@ -1,8 +1,9 @@
 import Head from 'next/head'
-import Home from './components/Header'
+import Header from './components/Header'
+import Home from './components/Home'
 import Listing from './components/Listing'
 import Footer from './components/Footer'
-import styles from '@/styles/Home.module.css'
+
 
 
 

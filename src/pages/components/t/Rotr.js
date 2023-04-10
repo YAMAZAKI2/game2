@@ -28,6 +28,7 @@ const Rotr = () => {
 
           </p>
           <br />
+          <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/37gXv0NzmfY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
@@ -40,6 +41,7 @@ const Rotr = () => {
           <p> A collision detection issue was observed while exploring the Valley Farmstead in the game. While a blacksmith was hammering a steel rod on an anvil, it was noticed that the rod and the hammer were passing through the anvil due to collision detection problems.
 
           </p>
+          <br />
           <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/nAeIhh3uMb4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -54,6 +56,7 @@ const Rotr = () => {
 
           </p>
           <br />
+          <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/2n7SOcSTl4k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
@@ -66,6 +69,7 @@ const Rotr = () => {
           <p>  While playing the "Silent Night" mission, a collision detection issue was encountered as Lara Croft was in the water. The bow on her back passed through her body, additionally the bow strings passing through her shoulders as well. Although not easy to see, this issue was is not acceptable and needs to be addressed and improve.
 
           </p>
+          <br />
           <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/PdQzKqYHUiU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -80,6 +84,7 @@ const Rotr = () => {
 
           </p>
           <br />
+          <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/xPOJ_2LZ8YM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
@@ -93,6 +98,7 @@ const Rotr = () => {
 
           </p>
           <br />
+          <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/4nEWkJhkBSE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
@@ -104,7 +110,8 @@ const Rotr = () => {
 
 
 
-
+          <br />
+          <br />
         </div>
       </main>
       <Footer />

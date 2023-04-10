@@ -28,6 +28,7 @@ const Sotn = () => {
 
           </p>
           <br />
+          <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/kBUQ72Scr_4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
@@ -39,6 +40,7 @@ const Sotn = () => {
           <h2>2. Fox and magical stick pass through solid objects due to collision detection issue:   </h2>
           <p>  There was a collision detection problem in the game, which allowed the fox and the magical stick to pass through rocks and ice surfaces. The issue occurred when players controlled the fox to move towards rocks or ice surfaces while carrying the magical stick. Sometimes, the fox's head could pass through the rocks and ice, and both sides of the magical stick could pass through anything as well, due to its length. However, it was acceptable for the magical stick because some terrains were narrow and sometimes the fox was supposed to go through caves and small entries, but it could have been implemented with a better solution.
           </p>
+          <br />
           <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/zn6Ww0HwoZM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>

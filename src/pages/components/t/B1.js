@@ -29,6 +29,8 @@ const B1 = () => {
           <h2>1. Body twitching observed after AI being shot: </h2>
           <p> During the "Nothing is Written" campaign in Battlefield 1, the objective was to recon any of the Ottoman strongholds. While playing, it was observed that after killing an enemy, the body would twitch for around 7 to 8 seconds before stopping. It was suspected that this issue was caused by improper physics with the AI.
           </p>
+          <br />
+          <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/NOgG9cmQc18" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
@@ -36,10 +38,12 @@ const B1 = () => {
           </br>
           <br>
           </br>
-
+          <hr></hr>
           <h2>2. Improper AI physics implementation: </h2>
           <p>  In the "Nothing is Written" campaign in Battlefield 1, the objective was to recon any of the Ottoman strongholds. While playing, an issue encountered where an enemy on a vehicle appeared to be holding an invisible item. The enemy was meant to be holding the vehicle top bar, but instead it was in the opposite position. This could be indicative of an improper AI physics implementation problem, as the enemy's animations and interactions with the vehicle may not be aligned properly.
           </p>
+          <br />
+          <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/cEnUfGqrTGU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>

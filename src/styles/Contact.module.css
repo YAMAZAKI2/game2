@@ -1,6 +1,5 @@
 .container {
  margin: 0 auto;
- max-width: 800px;
  padding: 2rem;
  border-radius: 1rem;
  color: #60429e;
@@ -12,45 +11,52 @@
 }
 
 .Header {
- padding: 3rem;
- text-decoration: none;
+ padding: 2rem;
 }
 
 .h1 {
  font-size: 2rem;
- list-style: none;
- text-decoration: none;
 }
 
 .p {
  font-size: 1.2rem;
  margin-bottom: 2rem;
- list-style: none;
- text-decoration: none;
 }
 
 .ul {
- list-style: none;
  padding: 0;
  margin: 0;
- list-style: none;
- text-decoration: none;
 }
 
 .li {
  margin-bottom: 1rem;
- list-style: none;
- text-decoration: none;
 }
 
 .a {
  color: #333;
  text-decoration: none;
  transition: color 0.5s ease-in-out;
- list-style: none;
 }
 
 .a:hover {
  color: #ad8282;
- list-style: none;
+}
+
+/* Media queries */
+@media screen and (min-width: 480px) {
+ .container {
+  max-width: 90%;
+ }
+}
+
+@media screen and (min-width: 768px) {
+ .container {
+  max-width: 80%;
+ }
+}
+
+@media screen and (min-width: 1024px) {
+ .container {
+  max-width: 70%;
+ }
 }

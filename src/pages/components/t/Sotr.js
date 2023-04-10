@@ -27,6 +27,7 @@ const Sotr = () => {
 
           </p>
           <br />
+          <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/D12qucHlgUs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
@@ -38,6 +39,7 @@ const Sotr = () => {
           <h2>2. AI Collision Detection Problem with Raised Bow:  </h2>
           <p>  A collision detection issue with AI has been observed. The issue is like the one encountered in the previous Rise OF The Tomb Raider game, and it appears that no action has been taken to address it. When attempting to raise the bow on any AI in game, the bow passes through AI’s body easily, causing a collision detection issue.
           </p>
+          <br />
           <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/6C6GZBVn59w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -52,9 +54,11 @@ const Sotr = () => {
 
           </p>
           <br />
+          <br />
           <div className={Styles.youtube}>
             <iframe width="960" height="560" src="https://www.youtube.com/embed/1JQjb2IWPG0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
+          <br />
           <br />
 
 
