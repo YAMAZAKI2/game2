@@ -1,5 +1,9 @@
-
+import Header from '../Header'
+import Footer from '../Footer'
+import battlefield1 from '../../../../public/assests/battlefield1.jpg'
 import Head from 'next/head'
+import Image from 'next/image'
+import Styles from '@/styles/Posts.module.css'
 const B1 = () => {
   return (
     <>
@@ -9,6 +13,50 @@ const B1 = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header />
+      <br />
+      <br />
+      <main className={Styles.main}>
+        <h1 className={Styles.name}>Battlefield 1</h1>
+        <div className={Styles.image}>
+          <Image className={Styles.image} src={battlefield1} alt="Battlefield 1" width={500} height={300} priority />
+        </div>
+
+        <div className={Styles.p}>
+
+
+
+          <h2>1. Body twitching observed after AI being shot: </h2>
+          <p> During the "Nothing is Written" campaign in Battlefield 1, the objective was to recon any of the Ottoman strongholds. While playing, it was observed that after killing an enemy, the body would twitch for around 7 to 8 seconds before stopping. It was suspected that this issue was caused by improper physics with the AI.
+          </p>
+          <div className={Styles.youtube}>
+            <iframe width="960" height="560" src="https://www.youtube.com/embed/NOgG9cmQc18" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          </div>
+          <br>
+          </br>
+          <br>
+          </br>
+
+          <h2>2. Improper AI physics implementation: </h2>
+          <p>  In the "Nothing is Written" campaign in Battlefield 1, the objective was to recon any of the Ottoman strongholds. While playing, an issue encountered where an enemy on a vehicle appeared to be holding an invisible item. The enemy was meant to be holding the vehicle top bar, but instead it was in the opposite position. This could be indicative of an improper AI physics implementation problem, as the enemy's animations and interactions with the vehicle may not be aligned properly.
+          </p>
+          <div className={Styles.youtube}>
+            <iframe width="960" height="560" src="https://www.youtube.com/embed/cEnUfGqrTGU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          </div>
+
+
+
+
+
+
+
+          <br />
+          <br />
+        </div>
+
+      </main>
+
+      <Footer />
     </>
   )
 }

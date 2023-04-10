@@ -4,8 +4,9 @@ import Footer from '../Footer'
 import Image from 'next/image'
 import Tale from "../../../../public/assests/Tale.jpg"
 import Styles from '@/styles/Posts.module.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap'
+
+
 const Apoi = () => {
   return (
     <>
@@ -15,29 +16,52 @@ const Apoi = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container>
 
-      </Container>
       <Header />
       <br />
       <br />
-      <main> <h1 >A Tale of Plague Innocence</h1>
-        <div>
-          <Image src={Tale} alt="battlefield" width={500} height={300} priority />
+      <main className={Styles.main}> <h1 className={Styles.name}>A Tale of Plague Innocence</h1>
+        <div className={Styles.image}>
+          <Image className={Styles.image} src={Tale} alt="battlefield" width={500} height={300} priority />
         </div>
-       
+
+        <div className={Styles.p}>
           <h2>1. Plants and tree's branch collision detection problem: </h2>
           <p>   In Chapter 4, "The Apprentice," of A Plague Tale: Innocence, an observation was made regarding a visual glitch. While walking on a constructed wooden platform over a river, plants appeared to pass through the platform. The plants seemed to be emerging from the river below and appearing on top of the platform, despite the wooden pallets being present. This same phenomenon was observed again when a tree branch appeared to pass through a rock fence. These observations suggest a possible issue with the game's programming and should be investigated further.
 
           </p>
           <br />
+          <Container>
+          <div className={Styles.youtube}>
+            <iframe width="960" height="560" src="https://www.youtube.com/embed/TP9seitsNHA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            </div>
+          </Container>
+          <br>
+          </br>
+          <br>
+          </br>
+          <hr></hr>
+          <h2>2. AI Issue (Guards face difficulty to attack when player holds torch): </h2>
+          <p>  In Chapter 4, "The Apprentice," of A Plague Tale: Innocence, while playing the game and exploring the environment, an observation was made regarding a visual glitch. While walking on a wooden platform constructed of wooden pallets over a river, plants appeared to pass through the platform. The plants seemed to be emerging from the river below and appearing on top of the platform, despite the wooden pallets being present. This same phenomenon was observed again when a tree branch appeared to pass through a rock fence. These observations suggest a possible issue with the game's programming and should be investigated further.
 
-        <div className="ratio ratio-21x9">
-            <iframe src="https://www.youtube.com/embed/TP9seitsNHA" title="YouTube video" allowFullScreen></iframe>
+          </p>
+          <br />
+          <div className={Styles.youtube}>
+            <iframe width="960" height="560" src="https://www.youtube.com/embed/P8FLGJ5OS0c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+
           </div>
+          <br />
 
-         
-      </main >
+
+
+
+
+
+
+
+
+        </div>
+      </main>
       <Footer />
     </>
   )
