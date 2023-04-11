@@ -23,7 +23,7 @@ const Bv = () => {
 
         <div className={Styles.p}>
 
-          <h2>1. Mysteries Light: </h2>
+          <h2>1. Floating Light Bug: </h2>
           <p> During my playthrough of the "Under no flag" campaign in Battlefield V, I encountered a bug while attempting to complete the objective of "Planting a time bomb on Stuka aircraft." I noticed a small, shining light floating in mid-air that appeared out of place and did not seem to be related to any nearby objects, despite a table being positioned next to it. It is unclear if this light was intended to be a table lamp or if it was placed there for another reason by the developers. Regardless, I wanted to report this issue.
           </p>
 
