@@ -19,15 +19,16 @@ const Contact = () => {
                <ul>
                   <li>
 
+                     <p></p>
+                     <a href="mailto:thakaresagar86@gmail.com" target='_blank'>thakaresagar86@gmail.com</a>
 
-                     <a href="mailto:thakaresagar86@gmail.com">thakaresagar86@gmail.com</a>
 
                   </li>
                   <br />
                   <li>
 
 
-                     <a href="linkedin.com/in/sagar-thakare-8283b71b7">LinkedIn</a>
+                     <a href="https://linkedin.com/in/sagar-thakare-8283b71b7" target='_blank'>LinkedIn</a>
                   </li>
                </ul>
             </div>
