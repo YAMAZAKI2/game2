@@ -1,6 +1,7 @@
 import Styles from '@/styles/Home.module.css'
 import Head from 'next/head'
 import Header from './Header.js'
+import { Container } from 'react-bootstrap'
 const Home = () => {
   return (
     <>
@@ -15,18 +16,19 @@ const Home = () => {
       <main className={Styles.main}>
 
       
-
+<Container>
         <div className={Styles.p}>
           <p>
             As a passionate gamer, I have always been fascinated by the game development and testing. Over time, I have developed a talent for identifying and reporting bugs in games. Through hours of playing and testing, I have learned to thoroughly explore every aspect of games to uncover even the hardest-to-find issues.
 
             This portfolio is where I share my findings with the world, including fellow developers.</p>
 
-          <p> I believe that gaming is a powerful medium that can bring people together, spark imagination, and create unforgettable experiences. By playing my part in finding and fixing bugs, I hope to contribute to the growth and success of the gaming industry.
+            <p> Gaming is a medium that has the potential to unite people and ignite creativity. Through my role in identifying and resolving bugs, I aim to make a meaningful contribution to the development of the gaming industry.
           </p>
 
         
-        </div>
+          </div>
+        </Container>
       </main>
     </>
   )
