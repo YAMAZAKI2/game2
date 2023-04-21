@@ -16,7 +16,7 @@ const Testreports = () => {
    <br />
    <br />
    <div className={Styles.container}>
-    <h1 className={Styles.h1}>Test Reports</h1>
+    <h1 className={Styles.h1}>Bug Reports</h1>
     <div>
      <Link href={"https://1drv.ms/w/s!ApU8KwBJGWfQqAE77o9OU4hAEg7K?e=Nx5fkz"} target="_blank"><h2>Battlefield V</h2></Link>
 
