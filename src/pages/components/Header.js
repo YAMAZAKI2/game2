@@ -12,7 +12,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              href='/components/Testreports'>
+              href='/components/BugReports'>
               <>Bug Reports </>
             </Link>
           </li>
